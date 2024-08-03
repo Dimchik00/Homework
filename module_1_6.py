@@ -1,0 +1,15 @@
+my_dict = {'Anton': 1996, 'Dima': 1999, 'Anna': 1998}
+print(my_dict)
+print(my_dict['Dima'])
+print(my_dict.get('Adam', 'отсутствует'))
+my_dict.update({'Ivan': 2000, 'Ira': 2001})
+print(my_dict)
+a = my_dict.pop('Anna')
+print(a)
+print(my_dict)
+my_set = {'gold', 'silver', 'diamond', 1, 2, 3, 2, 1, 3, 'gold', 'silver'}
+print(my_set)
+my_set.add('Wood')
+my_set.add(4)
+my_set.discard('diamond')
+print(my_set)
